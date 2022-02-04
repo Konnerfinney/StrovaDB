@@ -1,0 +1,11 @@
+Git+https://github.com/Rapptz/discord.py
+mongoengine
+pymongo
+dnspython
+pymongo[tls]
+gspread
+datetime
+pytz
+python-dateutil
+discord
+flask
