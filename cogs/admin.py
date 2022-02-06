@@ -192,7 +192,10 @@ class admin(commands.Cog, name='admin'):
 			await ctx.channel.send("Please enter a valid number of appointment")
 
 		
-		
+	@commands.commad()
+	async def adminCommands(self,ctx):
+		admin_commands_str = "```bookAppointForUser:\nParameters: number - appointment to book. Discord ID of user to book it for\nDeleteAppointment:\nParameters: number of appointment to delete\nallAppointments:\nParameters - None\nCreateAppointments:\nParameters - None\nDeleteUser"
+		ctx.channel.send(admin_commands_str)
 
 	
 
